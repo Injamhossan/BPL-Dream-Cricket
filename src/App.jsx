@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-        <>
-{/* Navbar Section  */}
+    <>
+      {/* Navbar Section  */}
 
       <div className="navbar justify-between mx-auto max-w-[1600px] mt-3">
         <div className="navbar-start">
@@ -68,11 +68,46 @@ function App() {
         </div>
       </div>
 
+      {/* Banner Section */}
 
-    {/* Banner Section */}
+      <div className="relative bg-black mx-auto max-w-[1600px] rounded-[40px] overflow-hidden">
+        <img
+          src="/src/assets/bg-shadow.png"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
+          <img
+            src="/src/assets/banner-main.png"
+            alt="Banner"
+            className="mb-6 w-[220px]"
+          />
+          <h1 className="text-white text-[24px] md:text-[40px] font-bold">
+            Assemble Your Ultimate Dream 11 Cricket Team
+          </h1>
 
-    <div> </div>
+          <p className="text-gray-300 text-lg md:text-xl mt-3">
+            Beyond Boundaries Beyond Limits
+          </p>
 
+          <button className="mt-6 btn btn-outline outline-[#E7FE29] btn-secondary text-black bg-[#E7FE29] px-6 py-2 rounded-lg font-semibold">
+            Claim Free Credit
+          </button>
+        </div>
+      </div>
+
+
+      {/* Available player */}
+
+      <div className="flex justify-between mx-auto max-w-[1600px] mt-[100px] items-center">
+        <h1 className="text-black text-[28px] font-bold">
+          Available Players
+        </h1>
+        <div className="flex gap-5 border-2 border-gray-300 rounded-[10px] px-2 py-2 shadow-sm">
+        <h1 className="text-black">Available</h1>
+        <h1 className="text-black">Selected (<span>0</span>)</h1>
+          </div>
+      </div>
     </>
   );
 }
