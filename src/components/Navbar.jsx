@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
   return (
     <div className="navbar justify-between mx-auto max-w-[1600px] mt-3 mb-3">
       <div className="navbar-start">
@@ -58,7 +58,7 @@ const Navbar = () => {
         </ul>
         <div className="shadow-sm rounded-[10px] px-[20px] py-[14px] border-gray-300 border-1">
           <p className="text-black flex items-center gap-1">
-            <span>600000000</span> Coin
+            <span>{availableBalance}</span> Coin
             <img src="/src/assets/dollar.png" alt="" className="w-4 h-4" />
           </p>
         </div>

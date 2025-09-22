@@ -7,7 +7,7 @@
     "rating": 9.5,
     "batting_style": "Left-hand bat",
     "bowling_style": "Slow left-arm orthodox",
-    "price": "$120,000"
+    "price": "120,000"
   },
   {
     "player_img": "https://i.ibb.co.com/MD4p8vYq/Mushfiqur-Rahim.png",
@@ -17,7 +17,7 @@
     "rating": 8.8,
     "batting_style": "Right-hand bat",
     "bowling_style": "N/A",
-    "price": "$90,000"
+    "price": "90,000"
   },
   {
     "player_img": "https://i.ibb.co.com/Cs1JY4HC/Mustafizur-Rahman.jpg",
@@ -27,7 +27,7 @@
     "rating": 8.9,
     "batting_style": "Left-hand bat",
     "bowling_style": "Left-arm fast-medium",
-    "price": "$100,000"
+    "price": "100,000"
   },
   {
     "player_img": "https://i.ibb.co.com/PspG9mn4/Tamim-Iqbal.jpg",
@@ -37,7 +37,7 @@
     "rating": 8.7,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": "$95,000"
+    "price": "95,000"
   },
   {
     "player_img": "https://i.ibb.co.com/Nnpb0n3Y/Mahmudullah-Riyad.jpg",
@@ -47,7 +47,7 @@
     "rating": 8.5,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": "$85,000"
+    "price": "85,000"
   },
   {
     "player_img": "https://i.ibb.co.com/QvRrJyX5/Liton-Das.jpg",
@@ -57,7 +57,7 @@
     "rating": 8.6,
     "batting_style": "Right-hand bat",
     "bowling_style": "N/A",
-    "price": "$88,000"
+    "price": "88,000"
   },
   {
     "player_img": "https://i.ibb.co.com/bj9k4s9B/Andre-Russell.jpg",
@@ -67,7 +67,7 @@
     "rating": 9.3,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": "$150,000"
+    "price": "150,000"
   },
   {
     "player_img": "https://i.ibb.co.com/bMZPM2ny/Chris-Gayle.jpg",
@@ -77,7 +77,7 @@
     "rating": 9.0,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": "$140,000"
+    "price": "140,000"
   },
   {
     "player_img": "https://i.ibb.co.com/d4vd7WbY/Kieron-Pollard.jpg",
@@ -87,7 +87,7 @@
     "rating": 9.1,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm medium",
-    "price": "$145,000"
+    "price": "145,000"
   },
   {
     "player_img": "https://i.ibb.co.com/qYSyz0pX/Rashid-Khan.jpg",
@@ -97,7 +97,7 @@
     "rating": 9.4,
     "batting_style": "Right-hand bat",
     "bowling_style": "Legbreak googly",
-    "price": "$160,000"
+    "price": "160,000"
   },
   {
     "player_img": "https://i.ibb.co.com/6c7RYvCC/David-Miller.jpg",
@@ -107,7 +107,7 @@
     "rating": 8.6,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": "$110,000"
+    "price": "110,000"
   },
   {
     "player_img": "https://i.ibb.co.com/Q34sFwqW/Imran-Tahir.jpg",
@@ -117,6 +117,6 @@
     "rating": 8.7,
     "batting_style": "Right-hand bat",
     "bowling_style": "Legbreak googly",
-    "price": "$105,000"
+    "price": "105,000"
   }
 ]

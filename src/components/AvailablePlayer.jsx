@@ -1,9 +1,9 @@
-import React, { use } from "react";
+import React, { use, useState } from "react";
 
-const AvailablePlayers = ({ playersPromise }) => {
+const AvailablePlayers = ({ playersPromise, setAvailableBalance, availableBalance}) => {
   const playerData = use(playersPromise);
   console.log(playerData);
-
+    const [isSelected, setIsSelected] = useState(false);
   return (
     <div className="max-w-[1630px] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[40px] px-4">
@@ -40,10 +40,14 @@ const AvailablePlayers = ({ playersPromise }) => {
                   <p className="text-right text-[#131313b3]">{player.bowling_style}</p>
                 </div>
                 <div className="flex items-center">
-                  <p className="font-bold">Price: {player.price}</p>
+                  <p className="font-bold">Price: <span>$</span> {player.price}</p>
                   <div className="card-actions justify-end">
-                    <button className="btn border-[#1313131a] bg-white text-black rounded-[8px]">
-                      Choose Player
+                    <button disabled={isSelected} onClick={()=>{
+                        setIsSelected(true),
+                        setAvailableBalance(availableBalance - player.price).split(",").join("");
+                        }
+                    } className="btn border-[#1313131a] bg-white text-black rounded-[8px]">
+                      {isSelected === true?"Selected":"Choose Player" }
                     </button>
                   </div>
                 </div>
